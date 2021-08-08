@@ -220,7 +220,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		width: 35em;
-		opacity: .79;
+		opacity: .93
 	}
 
 		.container.xsmall {
@@ -755,6 +755,7 @@ input, select, textarea {
 	}
 
 /* Icon */
+/* add iconify--meditation */
 
 	.icon {
 		text-decoration: none;
@@ -791,12 +792,14 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-		.icon.major {
-			display: block;
-			margin: 0 0 1em 0;
+		.icon.major,
+		.iconify {
+			/* display: block; */
+			/* margin: 0 0 1em 0; */
 		}
 
-			.icon.major:before {
+			.icon.major:before,
+			.iconify {
 				font-size: 2.5em;
 			}
 	
@@ -1120,7 +1123,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #8cd1a8;
+			background-color: #5fdf92;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -1131,7 +1134,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #9ed8b6;
+				background-color: rgba(113, 221, 158, 0.911);
 			}
 
 			input[type="submit"].primary:active,
