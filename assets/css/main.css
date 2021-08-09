@@ -67,7 +67,7 @@ input, select, textarea {
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: linear-gradient(180.43deg, rgba(0, 0, 0, 0.281) 0%, rgba(0, 0, 0, 0.315) 100%), url("/BecomeButterfly/images/background-1.jpg");
+		background-image: linear-gradient(180.43deg, rgba(11, 32, 9, 0.363) 0%, rgba(252, 159, 255, 0.26) 100%), url("/BecomeButterfly/images/photo-1596510743279-b354a760e5d0.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: cover;
@@ -220,7 +220,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		width: 35em;
-		opacity: .93
+		opacity: .96
 	}
 
 		.container.xsmall {
@@ -1123,7 +1123,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #5fdf92;
+			background-color: #FF467E;
 			border: 0;
 			box-shadow: none;
 			color: #ffffff !important;
@@ -1134,7 +1134,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: rgba(113, 221, 158, 0.911);
+				background-color: #FD94B4;
 			}
 
 			input[type="submit"].primary:active,
@@ -1142,7 +1142,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #7aca9a;
+				background-color: #FF467E;
 			}
 
 			input[type="submit"].primary.icon:before,
