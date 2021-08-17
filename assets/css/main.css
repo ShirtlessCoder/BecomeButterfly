@@ -7,6 +7,10 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* Color Palette: 
+#F12B6B #FF467E #FD94B4 #F6C7C7
+https://colorhunt.co/palette/f12b6bff467efd94b4f6c7c7 */
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -98,7 +102,7 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #6f7577;
+		color: #4e5253;
 		font-family: "Raleway", "Helvetica", sans-serif;
 		font-size: 15pt;
 		font-weight: 400;
@@ -122,7 +126,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		color: #61686b;
+		color: #4e5253;
 		font-weight: 700;
 	}
 
@@ -135,7 +139,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #61686b;
+		color: #4e5253;
 		font-weight: 800;
 		letter-spacing: 0.075em;
 		line-height: 1em;
@@ -220,7 +224,7 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
 		width: 35em;
-		opacity: .96
+		opacity: .8;
 	}
 
 		.container.xsmall {
@@ -1123,10 +1127,10 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #FF467E;
-			border: 0;
+			background-color: #FFF;
+			border: 1px solid #FF467E;
 			box-shadow: none;
-			color: #ffffff !important;
+			color: #FF467E !important;
 		}
 
 			input[type="submit"].primary:hover,
